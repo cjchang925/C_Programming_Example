@@ -1,0 +1,7 @@
+{
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google}",
+    "files.associations": {
+        "cmath": "c",
+        "stdio.h": "c"
+    }
+}

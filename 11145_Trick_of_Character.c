@@ -23,7 +23,7 @@ int main() {
       if(isupper(input[i])) {
         index = alpha_int % 65;
         alpha[index]++;
-        UpperLower[index] = 1;
+        if (alpha[index] == 1)  UpperLower[index] = 1;
       }
       else {
         index = alpha_int % 97;
